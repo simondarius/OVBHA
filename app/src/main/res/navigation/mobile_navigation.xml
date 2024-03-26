@@ -16,5 +16,19 @@
         android:name="com.cnidaria.ovbhafinal.MapsFragment"
         android:label="My Location"
         tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/nearbyServicesFragment"
+        android:name="com.cnidaria.ovbhafinal.NearbyServicesFragment"
+        android:label="Nearby"
+        tools:layout="@layout/fragment_nearby_services" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.cnidaria.ovbhafinal.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.cnidaria.ovbhafinal.WeatherFragment"
+        android:label="Weather" />
 
 </navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388340858266",
+    "project_id": "ovbha-8758b",
+    "storage_bucket": "ovbha-8758b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388340858266:android:9b188fc3cd9d9b417a4e23",
+        "android_client_info": {
+          "package_name": "com.cnidaria.ovbhafinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1PWFz765ZjeIhZJgHNvZ_YzfB8nn6v8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

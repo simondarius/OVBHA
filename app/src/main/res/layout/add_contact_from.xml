@@ -15,7 +15,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="76dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <com.google.android.material.textfield.TextInputLayout
@@ -28,6 +28,24 @@
                     android:layout_width="201dp"
                     android:layout_height="wrap_content"
                     android:hint="Contact Name" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="50px">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/newContactNumber"
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone Number" />
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
 
